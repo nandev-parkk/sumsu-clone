@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.items {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .sponsor {
+    height: 100%;
+    padding: 0 30px;
+    background-color: $color-green;
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    font-weight: $fw-bold;
+  }
+
+  button {
+    height: 100%;
+    background-color: $color-white;
+    font-size: 36px;
+    padding: 0 30px;
+    color: $color-black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search {
+    border-right: 1px solid $color-lighten-gray;
+  }
+
+  .searchBar {
+    position: absolute;
+    right: 0;
+    width: 850px;
+    height: 80px;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: $transition;
+    transform: translateX(-0);
+
+    &.active {
+      visibility: visible;
+      opacity: 1;
+      transform: translateX(-96px);
+    }
+
+    form {
+      width: 100%;
+      background-color: $color-green;
+      display: flex;
+      padding-left: 30px;
+
+      fieldset {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input {
+          width: 100%;
+          color: $color-white;
+          font-size: 18px;
+          &::placeholder {
+            color: $color-white;
+          }
+        }
+
+        button.submit {
+          background-color: transparent;
+        }
+      }
+    }
+
+    button {
+      color: $color-white;
+    }
+
+    button.close {
+      background-color: $color-darken-green;
+    }
+  }
+}

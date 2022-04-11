@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.gnb {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.gnb li {
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.gnb li:last-child {
+  margin-right: 0;
+}
