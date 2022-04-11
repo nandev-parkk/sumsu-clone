@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+$normal-style: "normal";
+
+@font-face {
+  font-family: "NanumBarunGothic";
+  src: url("../static/fonts/NanumBarunGothicUltraLight.eot"); // IE 호환성 보기
+  src: url("../static/fonts/NanumBarunGothicUltraLight.eot#iefix")
+      format("embedded-opentype"),
+    // IE 6~8
+    url("../static/fonts/NanumBarunGothicUltraLight.woff2") format("woff2"),
+    // woff2 지원 브라우저
+    url("../static/fonts/NanumBarunGothicUltraLight.woff") format("woff"),
+    // 모던 브라우저
+    url("../static/fonts/NanumBarunGothicUltraLight.ttf") format("truetype");
+  font-style: $normal-style;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "NanumBarunGothic";
+  src: url("../static/fonts/NanumBarunGothicLight.eot"); // IE 호환성 보기
+  src: url("../static/fonts/NanumBarunGothicLight.eot#iefix")
+      format("embedded-opentype"),
+    // IE 6~8
+    url("../static/fonts/NanumBarunGothicLight.woff2") format("woff2"),
+    // woff2 지원 브라우저
+    url("../static/fonts/NanumBarunGothicLight.woff") format("woff"),
+    // 모던 브라우저
+    url("../static/fonts/NanumBarunGothicLight.ttf") format("truetype");
+  font-style: $normal-style;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "NanumBarunGothic";
+  src: url("../static/fonts/NanumBarunGothic.eot"); // IE 호환성 보기
+  src: url("../static/fonts/NanumBarunGothic.eot#iefix")
+      format("embedded-opentype"),
+    // IE 6~8
+    url("../static/fonts/NanumBarunGothic.woff2") format("woff2"),
+    // woff2 지원 브라우저
+    url("../static/fonts/NanumBarunGothic.woff") format("woff"),
+    // 모던 브라우저
+    url("../static/fonts/NanumBarunGothic.ttf") format("truetype");
+  font-style: $normal-style;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NanumBarunGothic";
+  src: url("../static/fonts/NanumBarunGothicBold.eot"); // IE 호환성 보기
+  src: url("../static/fonts/NanumBarunGothicBold.eot#iefix")
+      format("embedded-opentype"),
+    // IE 6~8
+    url("../static/fonts/NanumBarunGothicBold.woff2") format("woff2"),
+    // woff2 지원 브라우저
+    url("../static/fonts/NanumBarunGothicBold.woff") format("woff"),
+    // 모던 브라우저
+    url("../static/fonts/NanumBarunGothicBold.ttf") format("truetype");
+  font-style: $normal-style;
+  font-weight: 700;
+}
