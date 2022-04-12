@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "components/common/header/Header";
+import Banner from "components/main/banner/Banner";
 
 export default function Main() {
   return (
     <div>
-      <Header />
+      <Banner />
     </div>
   );
 }

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.arrow {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: $color-white;
+  font-size: 90px;
+  transition: $transition;
+  z-index: 1;
+  &:hover {
+    color: $color-green;
+  }
+}

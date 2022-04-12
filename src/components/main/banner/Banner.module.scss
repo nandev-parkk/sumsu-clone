@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.item {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.dots {
+  margin: 0;
+
+  li {
+    background-color: red;
+
+    .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: $color-white;
+      margin: 0;
+    }
+  }
+}
