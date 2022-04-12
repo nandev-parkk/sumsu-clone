@@ -2,7 +2,8 @@
 
 .lnb {
   width: 100%;
-  background-color: rgba(60, 60, 60, 0.9);
+  background-color: $color-darkest-gray;
+  opacity: 0.9;
   position: absolute;
   top: 80px;
   display: flex;
@@ -21,9 +22,9 @@
     ul {
       width: 175px;
       padding: 30px 15px 15px;
-      border-right: 1px solid #4b4b4b;
+      border-right: 1px solid $color-darken-gray;
       &:first-child {
-        border-left: 1px solid #4b4b4b;
+        border-left: 1px solid $color-darken-gray;
       }
 
       li.title {
@@ -32,7 +33,7 @@
         margin-bottom: 15px;
       }
       li {
-        color: $color-gray;
+        color: $color-lighten-gray;
         font-size: 14px;
         margin-bottom: 10px;
         &:last-child {

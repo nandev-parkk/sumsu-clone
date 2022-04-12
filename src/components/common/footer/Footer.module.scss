@@ -1,5 +1,16 @@
 @charset "utf-8";
 
 footer {
-  background-color: $color-black;
+  background-color: $color-darkest-gray;
+
+  .items {
+    padding: 50px 0;
+
+    .info {
+      color: $color-gray;
+      font-size: 12px;
+      line-height: 22px;
+      padding-left: 50px;
+    }
+  }
 }

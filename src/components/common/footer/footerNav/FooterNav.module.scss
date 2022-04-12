@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.container {
+  border-bottom: 1px solid $color-darken-gray;
+  padding: 12px 0;
+
+  ul {
+    display: flex;
+
+    li {
+      padding: 0 10px;
+      border-right: 1px solid $color-gray;
+      font-size: 15px;
+
+      &:last-child {
+        border-right: 0;
+      }
+
+      a {
+        color: $color-gray;
+
+        &.privacy {
+          color: $color-lighten-gray;
+        }
+      }
+    }
+  }
+}
