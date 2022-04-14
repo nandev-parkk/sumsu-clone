@@ -6,9 +6,9 @@ import style from "./Header.module.scss";
 // image
 import logo from "static/images/logo.png";
 
-import Gnb from "./gnb/Gnb";
-import Lnb from "./lnb/Lnb";
-import HeaderContents from "./HeaderContents/HeaderContents";
+import Gnb from "./Gnb/Gnb";
+import Lnb from "./Lnb/Lnb";
+import HeaderContents from "./HeaderMenu/HeaderMenu";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

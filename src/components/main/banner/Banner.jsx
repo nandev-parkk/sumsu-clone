@@ -1,35 +1,25 @@
 import React from "react";
 import Slider from "react-slick";
 import style from "./Banner.module.scss";
-import NextArrow from "./nextArrow/NextArrow";
-import PrevArrow from "./prevArrow/PrevArrow";
+import NextArrow from "./NextArrow/NextArrow";
+import PrevArrow from "./PrevArrow/PrevArrow";
 
 // image
-import carousel01 from "static/images/carousel/carousel01.jpeg";
-import carousel02 from "static/images/carousel/carousel02.jpeg";
-import carousel03 from "static/images/carousel/carousel03.jpeg";
-import carousel04 from "static/images/carousel/carousel04.jpeg";
+import carousel01 from "static/images/banner/carousel01.jpeg";
+import carousel02 from "static/images/banner/carousel02.jpeg";
+import carousel03 from "static/images/banner/carousel03.jpeg";
+import carousel04 from "static/images/banner/carousel04.jpeg";
 
 export default function Banner() {
   const settings = {
     dots: true,
     infinite: true,
-    // autoplay: true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    // appendDots: (dot) => (
-    //   <div
-    //     style={{
-    //       bottom: "40px",
-    //     }}
-    //   >
-    //     <ul className={style.dots}>{dot}</ul>
-    //   </div>
-    // ),
-    // customPaging: () => <div className={style.dot}></div>,
   };
   return (
     <Slider {...settings}>

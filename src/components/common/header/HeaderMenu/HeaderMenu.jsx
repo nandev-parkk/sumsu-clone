@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import sponsorIcon from "static/images/sponsor_icon.png";
-import style from "./HeaderContents.module.scss";
+import style from "./HeaderMenu.module.scss";
 import { MdSearch, MdMenu, MdClose } from "react-icons/md";
 import cn from "classnames";
 import Swal from "sweetalert2";

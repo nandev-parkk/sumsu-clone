@@ -1,6 +1,7 @@
-import Footer from "components/common/footer/Footer";
-import Header from "components/common/header/Header";
-import Main from "pages/main/Main";
+import Footer from "components/common/Footer/Footer";
+import Header from "components/common/Header/Header";
+import NavMenu from "components/common/NavMenu/NavMenu";
+import Main from "pages/main/index";
 import "styles/global.scss";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <div className="App">
       <Header />
       <Main />
+      <NavMenu />
       <Footer />
     </div>
   );

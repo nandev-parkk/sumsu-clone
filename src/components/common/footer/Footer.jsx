@@ -1,7 +1,7 @@
 import React from "react";
-import Inner from "../layout/inner/Inner";
+import Inner from "../layout/Inner/Inner";
 import style from "./Footer.module.scss";
-import FooterNav from "./footerNav/FooterNav";
+import FooterNav from "./FooterNav/FooterNav";
 import logo from "static/images/foot_logo.png";
 
 export default function Footer() {

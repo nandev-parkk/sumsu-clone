@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.container {
+  background-color: $color-lightest-gray;
+  border-top: 1px solid $color-lighten-gray;
+}
+
+.items {
+  padding: 30px 20px;
+  border-right: 1px solid $color-lighten-gray;
+  width: 25%;
+
+  &:first-child {
+    border-left: 1px solid $color-lighten-gray;
+  }
+
+  li.title {
+    font-size: 18px;
+    // font-weight: $fw-bold;
+    color: $color-black;
+  }
+
+  li {
+    font-size: 15px;
+    color: $color-lighten-gray;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
