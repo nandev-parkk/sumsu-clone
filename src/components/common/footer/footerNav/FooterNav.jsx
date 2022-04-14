@@ -1,5 +1,5 @@
 import React from "react";
-import Inner from "components/common/layout/Inner/Inner";
+import Inner from "components/common/Layout/Inner/Inner";
 import style from "./FooterNav.module.scss";
 
 export default function FooterNav() {

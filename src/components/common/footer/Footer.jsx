@@ -1,5 +1,5 @@
 import React from "react";
-import Inner from "../layout/Inner/Inner";
+import Inner from "../Layout/Inner/Inner";
 import style from "./Footer.module.scss";
 import FooterNav from "./FooterNav/FooterNav";
 import logo from "static/images/foot_logo.png";

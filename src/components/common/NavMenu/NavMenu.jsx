@@ -1,5 +1,5 @@
 import React from "react";
-import Inner from "../layout/Inner/Inner";
+import Inner from "../Layout/Inner/Inner";
 import style from "./NavMenu.module.scss";
 
 export default function NavMenu() {
